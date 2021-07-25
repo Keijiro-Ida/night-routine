@@ -14,7 +14,6 @@
 	 	</div>
 		<div id="main_index">
 			<h2>眠活アプリ</h2>
-			<br>
 			<form id="login" action="/LoginServlet" method="post">
 				<table>
 				<tr>
@@ -25,13 +24,13 @@
 				<tr>
 				</table>
 				<input class="btn_center"type="submit" value="Login">
-				<br>
 			</form>
+			<p>テストユーザー: abcdef@aaa.co.jp</p>
+			<p>パスワード: 11223344</p>
 			<p>〜最高の睡眠を取れていますか〜</p>
 			<p>理想の睡眠を得るために</p>
 			<p>就寝時間から逆算し、最適な時刻に</p>
 			<p>ナイトルーティンを行えるようにサポートします。</p>
-			<br>
 			<a href="/SignUpServlet">新規登録</a>
 		</div>
 	</div>
